@@ -6,7 +6,6 @@ from langchain_core.messages import HumanMessage, AIMessage, SystemMessage
 
 # Enter your API key securely
 api_key = getpass("Enter your Gemini API key: ").strip()
-#AQ.Ab8RN6JlvI6vmDRNS90vkz_ef2PRUc54kViMqBx-9MQ8KfCo7g
 
 if not api_key:
     raise ValueError("API key cannot be empty.")

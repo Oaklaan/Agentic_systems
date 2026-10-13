@@ -5,7 +5,7 @@ from langchain_core.messages import HumanMessage, AIMessage, SystemMessage
 # Add your API key directly here
 llm = ChatOpenAI(
     model="gpt-4o-mini",
-    api_key="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",
+    api_key="api-key-here",
     temperature=0.7
 )
 
